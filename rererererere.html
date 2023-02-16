@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ELEMENTOS!</title>
+        <script src="./js/elementos.js"></script>
+    </head>
+    <body>
+        <h1> Elementos 💧   🔥   🌳 </h1>
+
+        <section id="seleccionar-mascota">
+          <h2>Elije a tu mascota</h2>
+
+            <label for="Peluza">Peluza</label>
+            <input type="radio" name="mascota" id="Peluza"  />
+
+            <label for="Masitas">Masitas</label>
+            <input type="radio" name="mascota" id="Masitas" />
+
+            <label for="Kipo">Kipo</label>
+            <input type="radio" name="mascota" id="Kipo" />
+           
+          <!--
+                ¡¡NOMBRES DE MASCOTAS!!
+            Peluza -> Agua
+          Masitas -> Fuego
+          Kipo -> Tierra
+          Elviejo -> Fuego y Tierra
+          Odi -> Tierra y Agua
+          Meme -> Agua y Fuego -->
+
+
+
+          <button id="boton-mascota">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Elije tu ataque</h2>
+
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene 3 vidas</p>
+            <p>La mascota <span id="mascota-enemigo"></span> tu enemigo tiene 3 vidas</p>
+        
+
+            <p>
+                <button id="boton-agua">💧 Agua</button>
+                <button id="boton-fuego">🔥 Fuego</button>
+                <button id="boton-tierra">🌳 Tierra</button>
+            </p>
+        </section>
+
+        <section id="mensajes"></section>
+        <p>Tu mascota atacó con FUEGO, y la mascota del enemigo atacó con TIERRA - GANASTE🌈</p>
+    
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+    </body>
+    
+</html>
